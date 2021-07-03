@@ -1,6 +1,6 @@
 name: app_install_date
 description: This plugin helps you to get install date of the application
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Maksimka101/app_install_date
 
 environment:

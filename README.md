@@ -5,7 +5,7 @@ How to use:
 late String installDate;
 // Platform messages may fail, so we use a try/catch 
 try {
-    DateTime date = await AppInstallDate().installDate;
+    final DateTime date = await AppInstallDate().installDate;
     installDate = date.toString();
 } catch (e, st) {
     installDate = 'Failed to load install date';
