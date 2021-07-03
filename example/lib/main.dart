@@ -26,7 +26,8 @@ class _MyAppState extends State<MyApp> {
     late String installDate;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      installDate = (await AppInstallDate().installDate).toString();
+      final DateTime date = await AppInstallDate().installDate;
+      installDate = date.toString();
     } catch (e, st) {
       print('Failed to load install date due to $e\n$st');
       installDate = 'Failed to load install date';
