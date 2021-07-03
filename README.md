@@ -1,5 +1,3 @@
-# App Install Date
-
 A flutter plugin that helps to get date of the app installation
 
 How to use:
