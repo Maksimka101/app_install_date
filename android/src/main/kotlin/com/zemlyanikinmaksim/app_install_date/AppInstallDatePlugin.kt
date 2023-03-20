@@ -1,4 +1,4 @@
-package com.zemlyanikinmaksim.appInstallDate
+package com.zemlyanikinmaksim.app_install_date
 
 import android.content.Context
 import androidx.annotation.NonNull
@@ -10,6 +10,7 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 
+/** AppInstallDatePlugin */
 class AppInstallDatePlugin: FlutterPlugin, MethodCallHandler {
   /// The MethodChannel that will the communication between Flutter and native Android
   ///
