@@ -4,10 +4,12 @@ import 'dart:async';
 import 'package:app_install_date/app_install_date.dart';
 
 void main() {
-  runApp(MaterialApp(home: MyApp()));
+  runApp(const MaterialApp(home: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -29,7 +31,7 @@ class _MyAppState extends State<MyApp> {
       final DateTime date = await AppInstallDate().installDate;
       installDate = date.toString();
     } catch (e, st) {
-      print('Failed to load install date due to $e\n$st');
+      debugPrint('Failed to load install date due to $e\n$st');
       installDate = 'Failed to load install date';
     }
 
@@ -47,7 +49,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('App install date loading example'),
+        title: const Text('App install date loading example'),
         centerTitle: true,
       ),
       body: Center(
