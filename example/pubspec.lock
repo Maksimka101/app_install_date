@@ -4,12 +4,10 @@ packages:
   app_install_date:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "1d86db1f75d7a1cb35c48b2d0066916ca0e469a9"
-      url: "https://github.com/Maksimka101/app_install_date"
-    source: git
-    version: "0.1.1"
+      path: ".."
+      relative: true
+    source: path
+    version: "0.1.2"
   async:
     dependency: transitive
     description:

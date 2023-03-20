@@ -1,6 +1,6 @@
 name: app_install_date
 description: This plugin helps you to get install date of the application
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/Maksimka101/app_install_date
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
+
   path_provider: ^2.0.13
 
 dev_dependencies:
@@ -19,15 +19,13 @@ dev_dependencies:
     sdk: flutter
   lints: ">=1.0.1 <3.0.0"
 
-
 flutter:
   plugin:
     platforms:
       android:
-        package: com.zemlyanikinmaksim.appInstallDate
+        package: com.zemlyanikinmaksim.app_install_date
         pluginClass: AppInstallDatePlugin
       ios:
         pluginClass: AppInstallDatePlugin
       macos:
         pluginClass: AppInstallDatePlugin
- 

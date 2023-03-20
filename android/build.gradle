@@ -1,4 +1,4 @@
-group 'com.zemlyanikinmaksim.appInstallDate'
+group 'com.zemlyanikinmaksim.app_install_date'
 version '1.0-SNAPSHOT'
 
 def localProperties = new Properties()
