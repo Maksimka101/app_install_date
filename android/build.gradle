@@ -39,6 +39,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.zemlyanikinmaksim.app_install_date'	
     compileSdkVersion 30
 
     sourceSets {
