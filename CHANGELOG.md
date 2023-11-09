@@ -1,3 +1,6 @@
+## 0.1.3
+Updating gradle settings to provide support for AGP8+ by @under3415
+
 ## 0.1.2
 Update gradle version and fix example app
 
