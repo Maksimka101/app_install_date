@@ -1,5 +1,8 @@
 A flutter plugin that helps to get date of the app installation
 
+> [!NOTE]
+> This plugin ~~most likely~~ works but is not actively maintained. If you face any issues, please create a pull request
+
 How to use:
 ```dart
 late String installDate;

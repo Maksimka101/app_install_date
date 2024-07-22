@@ -1,3 +1,7 @@
+## 0.1.4
+Removed warnings from build.gradle by @stwarwas
+Update README
+
 ## 0.1.3
 Updating gradle settings to provide support for AGP8+ by @under3415
 
