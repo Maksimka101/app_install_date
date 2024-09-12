@@ -2,7 +2,7 @@
 Pump Android's compileSdkVersion to 24 by @agent3bood
 
 ## 0.1.4
-Removed warnings from build.gradle by @stwarwas
+Removed warnings from build.gradle by @stwarwas \
 Update README
 
 ## 0.1.3
