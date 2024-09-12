@@ -1,3 +1,6 @@
+## 0.1.5
+Pump Android's compileSdkVersion to 24
+
 ## 0.1.4
 Removed warnings from build.gradle by @stwarwas
 Update README
